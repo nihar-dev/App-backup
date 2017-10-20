@@ -7,7 +7,7 @@ This repo contains example code for a workshop that introduces the  [App-backup]
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### What New (1.0.0):
+### What New (v0.1-alpha):
 1. TabLayout for Categories.
 2. PullDown Refresh App.
 3. Create new folder and Store App inside it.

@@ -1,58 +1,54 @@
-# App-backup## Welcome to GitHub Pages
+# App-backup
 
-You can use the [editor on GitHub](https://github.com/nihar511/Apk_generator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo contains example code for a workshop that introduces the  [App-backup](https://jekyllrb.com/) Boilerplate .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### What New (1.0.0):
+1. TabLayout for Categories.
+2. PullDown Refresh App.
+3. Create new folder and Store App inside it.
+4. Ui Customization .
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Android Studio 2.3.x
+Gradle 2.3.x
+Android 7.0 SDK
+Android Support Library, revision 24 or newer
+Google Play Services, version 9.6.0 or newer
 ```
 
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+Step 1. Add the JitPack repository to your build file
 
 ```
-Give the example
+# Add it in your root build.gradle at the end of repositories:
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
 ```
 
-And repeat
+Step 2. Add the dependency
 
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+dependencies {
+		compile 'com.github.nihar-dev:App-backup:1.0'
+	}
 ```
 
 ## Deployment
@@ -65,23 +61,28 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Nihar Mishra** - *Initial work* - [nihar-dev](https://github.com/nihar-dev)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Copyright 2017 nihar-dev
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ## Acknowledgments
 

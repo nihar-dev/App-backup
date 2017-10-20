@@ -1,6 +1,8 @@
 # App-backup
 
-This repo contains example code for a workshop that introduces the  [App-backup](https://jekyllrb.com/) Boilerplate .
+This repo contains example code for  ###AppBackup  Boilerplate .
+
+[![](https://jitpack.io/v/nihar-dev/App-backup.svg)](https://jitpack.io/#nihar-dev/App-backup)
 
 
 ## Getting Started
@@ -47,7 +49,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-		compile 'com.github.nihar-dev:App-backup:1.0'
+		compile 'com.github.nihar-dev:App-backup:v0.1-alpha'
 	}
 ```
 
@@ -57,9 +59,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Support Libraries](https://developer.android.com/topic/libraries/support-library/index.html) - Framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [jitpack](https://jitpack.io) - For Library .
 
 
 ## Authors

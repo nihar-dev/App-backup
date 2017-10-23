@@ -1,37 +1,94 @@
-# App-backup## Welcome to GitHub Pages
+# App-backup
 
-You can use the [editor on GitHub](https://github.com/nihar511/Apk_generator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo contains example code for  ###AppBackup  Boilerplate .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![](https://jitpack.io/v/nihar-dev/App-backup.svg)](https://jitpack.io/#nihar-dev/App-backup)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting Started
 
-```markdown
-Syntax highlighted code block
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-# Header 1
-## Header 2
-### Header 3
+### What New (v0.1-alpha):
+1. TabLayout for Categories.
+2. PullDown Refresh App.
+3. Create new folder and Store App inside it.
+4. Ui Customization .
 
-- Bulleted
-- List
+### Prerequisites
 
-1. Numbered
-2. List
+What things you need to install the software and how to install them
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+Android Studio 2.3.x
+Gradle 2.3.x
+Android 7.0 SDK
+Android Support Library, revision 24 or newer
+Google Play Services, version 9.6.0 or newer
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Installing
 
-### Jekyll Themes
+A step by step series of examples that tell you have to get a development env running
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nihar511/Apk_generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Step 1. Add the JitPack repository to your build file
 
-### Support or Contact
+```
+# Add it in your root build.gradle at the end of repositories:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+```
+
+Step 2. Add the dependency
+
+```
+dependencies {
+		compile 'com.github.nihar-dev:App-backup:v0.1-alpha'
+	}
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Support Libraries](https://developer.android.com/topic/libraries/support-library/index.html) - Framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [jitpack](https://jitpack.io) - For Library .
+
+
+## Authors
+
+* **Nihar Mishra** - *Initial work* - [nihar-dev](https://github.com/nihar-dev)
+
+
+
+## License
+
+Copyright 2017 nihar-dev
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc
+

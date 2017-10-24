@@ -13,6 +13,7 @@ public class DataModel {
     public String name,apkSize;
     public boolean checked;
     File ApkPath;
+    String getAppname ;
 
     public String getName() {
         return name;

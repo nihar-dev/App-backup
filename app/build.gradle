@@ -26,6 +26,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+    compile 'commons-io:commons-io:2.4'
+
     apply plugin: 'com.github.dcendents.android-maven'
     group='com.github.nihar-dev'
 }
